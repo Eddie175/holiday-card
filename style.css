@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "sofia";
+  src: url(fonts/Sofia-Regular.otf);
+  font-style: normal;
+}
+
+body {
+  background-image: url("images/holiday-card.jpg");
+  font-family: sofia;
+}
+
+.header, #message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: white;
+}
+
+#message {
+  font-size: 50px;
+}
+
+.container-time-periods,
+.container-time {
+  display: flex;
+  justify-content: center;
+  flex-basis: 200px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-basis: 150px;
+  justify-content: center;
+  min-width: 50px;
+  margin: 10px;
+  padding: 50px;
+  background-color: rgb(192, 192, 192, 0.1);
+  color: white;
+  border-style: outset;
+  border-radius: 20px;
+}
