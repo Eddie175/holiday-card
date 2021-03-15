@@ -9,7 +9,8 @@ body {
   font-family: sofia;
 }
 
-.header, #message {
+.header,
+#message {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,8 +31,9 @@ body {
 }
 
 .box {
+  
   display: flex;
-  flex-basis: 150px;
+  flex-basis: 100px;
   justify-content: center;
   min-width: 50px;
   margin: 10px;
@@ -40,4 +42,5 @@ body {
   color: white;
   border-style: outset;
   border-radius: 20px;
+  list-style-type: ;
 }
